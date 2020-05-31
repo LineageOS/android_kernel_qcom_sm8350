@@ -196,22 +196,34 @@ static int __netns_bpf_prog_detach(struct net *net,
 	return 0;
 }
 
-int skb_flow_dissector_bpf_prog_detach(const union bpf_attr *attr)
+int netns_bpf_prog_detach(const union bpf_attr *attr)
 {
-	return flow_dissector_bpf_prog_detach(current->nsproxy->net_ns);
+	enum netns_bpf_attach_type type;
+	int ret;
+
+	type = to_netns_bpf_attach_type(attr->attach_type);
+	if (type < 0)
+		return -EINVAL;
+
+	mutex_lock(&netns_bpf_mutex);
+	ret = __netns_bpf_prog_detach(current->nsproxy->net_ns, type);
+	mutex_unlock(&netns_bpf_mutex);
+
+	return ret;
 }
 
-static void __net_exit flow_dissector_pernet_pre_exit(struct net *net)
+static void __net_exit netns_bpf_pernet_pre_exit(struct net *net)
 {
-	/* We're not racing with attach/detach because there are no
-	 * references to netns left when pre_exit gets called.
-	 */
-	if (rcu_access_pointer(net->flow_dissector_prog))
-		flow_dissector_bpf_prog_detach(net);
+	enum netns_bpf_attach_type type;
+
+	mutex_lock(&netns_bpf_mutex);
+	for (type = 0; type < MAX_NETNS_BPF_ATTACH_TYPE; type++)
+		__netns_bpf_prog_detach(net, type);
+	mutex_unlock(&netns_bpf_mutex);
 }
 
-static struct pernet_operations flow_dissector_pernet_ops __net_initdata = {
-	.pre_exit = flow_dissector_pernet_pre_exit,
+static struct pernet_operations netns_bpf_pernet_ops __net_initdata = {
+	.pre_exit = netns_bpf_pernet_pre_exit,
 };
 
 int netns_bpf_prog_detach(const union bpf_attr *attr)

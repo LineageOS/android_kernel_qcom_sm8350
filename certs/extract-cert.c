@@ -36,7 +36,7 @@ static __attribute__((noreturn))
 void format(void)
 {
 	fprintf(stderr,
-		"Usage: scripts/extract-cert <source> <dest>\n");
+		"Usage: extract-cert <source> <dest>\n");
 	exit(2);
 }
 

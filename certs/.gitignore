@@ -1,4 +1,5 @@
 #
 # Generated files
 #
-x509_certificate_list
+/extract-cert
+/x509_certificate_list

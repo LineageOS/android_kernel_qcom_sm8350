@@ -16,6 +16,23 @@
       "message": "Real merges can be found here: https://github.com/ArianK16a/android_kernel_qcom_sm8350/commits/lineage-19.1",
       "revId": "242a3a524f98b9a2b38a8b90c895499d2fb8d5f9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ad5e5bb_6c70dff0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-09-26T13:15:58Z",
+      "side": 1,
+      "message": "Merged https://github.com/MotorolaMobilityLLC/kernel-devicetree/tree/1e0b2efd0cd8c4398ca111062563f0fa4b7c513d which should equal ~LA.UM.9.14.r1-19200.02-LAHAINA.QSSI13.0\n\nVerified on xiaomi sm8350",
+      "revId": "242a3a524f98b9a2b38a8b90c895499d2fb8d5f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

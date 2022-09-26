@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15ff5ceb_a4ed2feb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-09-26T13:14:10Z",
+      "side": 1,
+      "message": "Real merges can be found here: https://github.com/ArianK16a/android_kernel_qcom_sm8350/commits/lineage-19.1",
+      "revId": "242a3a524f98b9a2b38a8b90c895499d2fb8d5f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

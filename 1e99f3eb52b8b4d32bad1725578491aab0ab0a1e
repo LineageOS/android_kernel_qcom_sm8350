@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e88e229_ebb823c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-10-03T09:03:03Z",
+      "side": 1,
+      "message": "works and fixes wifi on renoir (xiaomi sm7350)",
+      "revId": "1e99f3eb52b8b4d32bad1725578491aab0ab0a1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "beaaa5b1_7e846a1f",
+        "filename": "include/net/tcp.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-12-07T22:04:24Z",
+      "side": 1,
+      "message": "Must be resolved to:\n\n\u003e  static inline void tcp_dec_quickack_mode(struct sock *sk)",
+      "range": {
+        "startLine": 365,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 30
+      },
+      "revId": "0ce0cfed95831f9f782d04af8e1da051b06ef16e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

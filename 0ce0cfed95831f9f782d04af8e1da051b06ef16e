@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e539cea7_d1cd42e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-12-07T22:36:18Z",
+      "side": 1,
+      "message": "Kernel builds and boots on lemonadep with the suggested changes.",
+      "revId": "0ce0cfed95831f9f782d04af8e1da051b06ef16e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "beaaa5b1_7e846a1f",

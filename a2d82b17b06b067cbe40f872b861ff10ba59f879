@@ -22,6 +22,30 @@
       },
       "revId": "a2d82b17b06b067cbe40f872b861ff10ba59f879",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b546b7ed_c2203e5e",
+        "filename": "drivers/rpmsg/qcom_glink_native.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1796,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-12-11T18:26:47Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "854be292_4d146b22",
+      "range": {
+        "startLine": 1796,
+        "startChar": 1,
+        "endLine": 1796,
+        "endChar": 31
+      },
+      "revId": "a2d82b17b06b067cbe40f872b861ff10ba59f879",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

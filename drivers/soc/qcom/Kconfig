@@ -231,14 +231,6 @@ config QCOM_SM6150_LLCC
 	  LLCC slices.
 	  If unsure, say n.
 
-config QCOM_SDM845_LLCC
-	tristate "Qualcomm Technologies, Inc. SDM845 LLCC driver"
-	depends on QCOM_LLCC
-	help
-	  Say yes here to enable the LLCC driver for SDM845. This provides
-	  data required to configure LLCC so that clients can start using the
-	  LLCC slices.
-
 config QCOM_LLCC_PERFMON
 	tristate "Qualcomm Technologies, Inc. LLCC Perfmon driver"
 	depends on QCOM_LLCC

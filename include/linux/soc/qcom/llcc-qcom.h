@@ -171,20 +171,6 @@ int llcc_slice_activate(struct llcc_slice_desc *desc);
  */
 int llcc_slice_deactivate(struct llcc_slice_desc *desc);
 
-/**
- * qcom_llcc_probe - program the sct table
- * @pdev: platform device pointer
- * @table: soc sct table
- * @sz: Size of the config table
- */
-int qcom_llcc_probe(struct platform_device *pdev,
-		      const struct llcc_slice_config *table, u32 sz);
-
-/**
- * qcom_llcc_remove - remove the sct table
- * @pdev: Platform device pointer
- */
-int qcom_llcc_remove(struct platform_device *pdev);
 #else
 static inline struct llcc_slice_desc *llcc_slice_getd(u32 uid)
 {
@@ -213,16 +199,6 @@ static inline int llcc_slice_activate(struct llcc_slice_desc *desc)
 static inline int llcc_slice_deactivate(struct llcc_slice_desc *desc)
 {
 	return -EINVAL;
-}
-static inline int qcom_llcc_probe(struct platform_device *pdev,
-		      const struct llcc_slice_config *table, u32 sz)
-{
-	return -ENODEV;
-}
-
-static inline int qcom_llcc_remove(struct platform_device *pdev)
-{
-	return -ENODEV;
 }
 #endif
 

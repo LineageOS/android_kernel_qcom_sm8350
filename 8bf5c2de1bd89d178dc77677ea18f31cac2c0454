@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23b6d3f1_48c9d518",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-02-25T19:04:06Z",
+      "side": 1,
+      "message": "This fixes warnings when linked with --orphan-handling\u003dwarn flag (which confirms the issue)",
+      "revId": "8bf5c2de1bd89d178dc77677ea18f31cac2c0454",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

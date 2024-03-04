@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe4fe1b1_1cf6902d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-03-04T08:53:03Z",
+      "side": 1,
+      "message": "This commit causes a ton of new warnings (and/or errors). Can you at least make sure it compiles without warnings on holi and lahaina defconfigs?",
+      "revId": "84b3ca651b81344a19142ac89365b7df86dc96f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

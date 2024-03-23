@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41e85136_916136f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-03-23T15:26:00Z",
+      "side": 1,
+      "message": "With this chain I am getting the following on oneplus sm8350:\n\n    ERROR: \"__fixunsdfsi\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__muldf3\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"fmaf\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__fixsfsi\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__divsf3\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__ltsf2\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__gtsf2\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__fixunssfsi\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__addsf3\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__floatsisf\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__mulsf3\" [techpack/camera/drivers/camera.ko] undefined!\n    ERROR: \"__floatunsisf\" [techpack/camera/drivers/camera.ko] undefined!",
+      "revId": "70136836cfa7af2ad03c0f345c8ef024a97e552e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7937894b_d965c4d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-03-28T03:48:47Z",
+      "side": 1,
+      "message": "https://github.com/arter97/caf_msm-5.15/blob/kernel.lnx.5.15.r1-rel/drivers/thermal/qcom/max31760_fan.c#L530",
+      "revId": "e41c2573af0d4f6cf8d08982e8381ead8de35985",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0997215c_04bbdf19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-04-30T19:38:33Z",
+      "side": 1,
+      "message": "confirmed the issue by building a KASAN-enabled kernel for my device\nI decided to not fix typos in this commit to retain the original metadata",
+      "revId": "e65e00367c842c656520a288c0faf9d25bcaadf9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

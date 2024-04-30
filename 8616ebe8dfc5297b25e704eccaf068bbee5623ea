@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3da35a9e_234b3c08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-04-30T19:39:56Z",
+      "side": 1,
+      "message": "confirmed the issue by running a KASAN-enabled kernel on my device",
+      "revId": "8616ebe8dfc5297b25e704eccaf068bbee5623ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

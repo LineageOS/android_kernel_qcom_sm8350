@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9b80571_cd751ffd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-06-12T15:29:30Z",
+      "side": 1,
+      "message": "This fixes logspam on veux during video playback\n\n[45568.373641] msm_vidc:   err : 00000001:  vp9d: dqbuf cache ops failed: CAPTURE: idx  4 fd 85 off 0 daddr c8800000 inode 716761 ref 9 size 4718592 filled 4718592 flags 0x10 ts 1000569986000000 refcnt 2 mflags 0x0, extradata: fd 161 off 0 daddr de0b4000 inode 716472 ref 4 size 16384 filled 16384 refcnt 2\n[45568.410915] msm_vidc:   err : 00000001:  vp9d: qbuf cache ops failed: CAPTURE: idx  9 fd 85 off 0 daddr d1800000 inode 733733 ref 9 size 4718592 filled 0 flags 0x0 ts 1000567567000000 refcnt 2 mflags 0x1, extradata: fd 95 off 0 daddr ddf1c000 inode 716447 ref 4 size 16384 filled 0 refcnt 2",
+      "revId": "d939e53a6bcb56204f6ad100c113ec848b6a5a77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

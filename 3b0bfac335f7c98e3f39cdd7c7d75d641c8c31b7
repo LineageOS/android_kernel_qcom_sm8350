@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d94d8a1_f8f4a1ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-06-12T16:43:25Z",
+      "side": 1,
+      "message": "iirc I took this resolution on purpose, as there was a patch in linux-stable mailing list that did the same. I\u0027ll have to find it again",
+      "revId": "3b0bfac335f7c98e3f39cdd7c7d75d641c8c31b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

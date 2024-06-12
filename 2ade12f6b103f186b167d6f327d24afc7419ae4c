@@ -51,6 +51,24 @@
       "parentUuid": "9bc2001d_599d3bdd",
       "revId": "2ade12f6b103f186b167d6f327d24afc7419ae4c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b008a42_8c38b698",
+        "filename": "techpack/audio/dsp/q6lsm.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 2136,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-06-12T12:44:18Z",
+      "side": 1,
+      "message": "Right I missed the 2* somehow",
+      "parentUuid": "96d89b72_989aa32b",
+      "revId": "2ade12f6b103f186b167d6f327d24afc7419ae4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

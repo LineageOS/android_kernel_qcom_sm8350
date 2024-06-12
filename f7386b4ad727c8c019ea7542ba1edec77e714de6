@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "514c6a0e_5cc412ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-06-12T15:32:07Z",
+      "side": 1,
+      "message": "This fixes screen flickering happening randomly\n\n[28965.015291] [drm:msm_gem_get_iova_locked.llvm.3316282149537719713] *ERROR* dma_buf_map_attachment failure, err\u003d-12\n[28965.015304] [drm:msm_gem_get_iova_locked.llvm.3316282149537719713] *ERROR* delayed dma-buf import failed -12\n[28965.015310] [drm:sde_plane_prepare_fb:1933] [sde error]failed to prepare framebuffer",
+      "revId": "f7386b4ad727c8c019ea7542ba1edec77e714de6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

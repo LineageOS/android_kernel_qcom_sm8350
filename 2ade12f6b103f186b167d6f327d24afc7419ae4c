@@ -16,6 +16,23 @@
       "message": "slightly less strict check.",
       "revId": "2ade12f6b103f186b167d6f327d24afc7419ae4c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bc2001d_599d3bdd",
+        "filename": "techpack/audio/dsp/q6lsm.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 2136,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-06-12T11:28:59Z",
+      "side": 1,
+      "message": "Aren\u0027t you checking the same thing 2 times?",
+      "revId": "2ade12f6b103f186b167d6f327d24afc7419ae4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

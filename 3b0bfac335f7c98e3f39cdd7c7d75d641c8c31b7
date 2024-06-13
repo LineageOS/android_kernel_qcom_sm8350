@@ -16,6 +16,23 @@
       "message": "iirc I took this resolution on purpose, as there was a patch in linux-stable mailing list that did the same. I\u0027ll have to find it again",
       "revId": "3b0bfac335f7c98e3f39cdd7c7d75d641c8c31b7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "388a284d_26788563",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-06-13T19:54:15Z",
+      "side": 1,
+      "message": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/mm?h\u003dlinux-5.4.y\u0026id\u003d7f75e937ece502c831fc48799e3f1f31cc0fd868",
+      "revId": "3b0bfac335f7c98e3f39cdd7c7d75d641c8c31b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

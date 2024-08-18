@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f64ce0d2_9c47e336",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-08-18T18:11:21Z",
+      "side": 1,
+      "message": "\u003c1\u003e[44447.132354] Unable to handle kernel NULL pointer dereference at virtual address 0000000000000008\n\u003c1\u003e[44447.132356] Mem abort info:\n\u003c1\u003e[44447.132358]   ESR \u003d 0x96000006\n\u003c1\u003e[44447.132360]   EC \u003d 0x25: DABT (current EL), IL \u003d 32 bits\n\u003c1\u003e[44447.132362]   SET \u003d 0, FnV \u003d 0\n\u003c1\u003e[44447.132364]   EA \u003d 0, S1PTW \u003d 0\n\u003c1\u003e[44447.132365] Data abort info:\n\u003c1\u003e[44447.132366]   ISV \u003d 0, ISS \u003d 0x00000006\n\u003c1\u003e[44447.132368]   CM \u003d 0, WnR \u003d 0\n\u003c1\u003e[44447.132370] user pgtable: 4k pages, 39-bit VAs, pgdp\u003d00000000d185d000\n\u003c1\u003e[44447.132371] [0000000000000008] pgd\u003d0000000146657003, pud\u003d0000000146657003, pmd\u003d0000000000000000\n\u003c0\u003e[44447.132376] Internal error: Oops: 96000006 [#1] PREEMPT SMP\n\u003c6\u003e[44447.132380] CPU: 7 PID: 25901 Comm: RenderThread Tainted: G S      W         5.4.280~positron/7aadf694 #3\n\u003c6\u003e[44447.132382] Hardware name: Qualcomm Technologies, Inc. VEUX QRD NOPMI (DT)\n\u003c6\u003e[44447.132384] pstate: 80400005 (Nzcv daif +PAN -UAO)\n\u003c6\u003e[44447.132392] pc : kgsl_get_fence_info+0x3c/0x174\n\u003c6\u003e[44447.132394] lr : kgsl_drawobj_sync_add_sync+0x504/0xbe8\n\u003c6\u003e[44447.132396] sp : ffffff9072f83a40\n\u003c6\u003e[44447.132397] x29: ffffff9072f83a50 x28: ffffff915e831700 \n\u003c6\u003e[44447.132398] x27: 0000000000000000 x26: 0000000000000004 \n\u003c6\u003e[44447.132400] x25: ffffff906b345f80 x24: ffffff919c274640 \n\u003c6\u003e[44447.132401] x23: ffffff919c274640 x22: ffffff906b345a00 \n\u003c6\u003e[44447.132402] x21: ffffff906b345fa0 x20: ffffff919c274f80 \n\u003c6\u003e[44447.132403] x19: ffffff906b345fc8 x18: ffffffc016910050 \n\u003c6\u003e[44447.132404] x17: ffffffe411a9b000 x16: 000000109185d000 \n\u003c6\u003e[44447.132406] x15: 0000004000000000 x14: 0000000000000001 \n\u003c6\u003e[44447.132407] x13: 42aa000000000000 x12: ffffffe4117d63f0 \n\u003c6\u003e[44447.132408] x11: 0000000000000000 x10: ffffffe41186cf88 \n\u003c6\u003e[44447.132409] x9 : 0000000100000001 x8 : 0000000000000000 \n\u003c6\u003e[44447.132410] x7 : 0000000000000002 x6 : 0000000000000030 \n\u003c6\u003e[44447.132412] x5 : ffffffe411bcc940 x4 : 0000000000000004 \n\u003c6\u003e[44447.132413] x3 : ffffff91bf347790 x2 : ffffff91bf347790 \n\u003c6\u003e[44447.132414] x1 : ffffff915e831700 x0 : ffffff906b345a00 \n\u003c6\u003e[44447.132416] Call trace:\n\u003c6\u003e[44447.132417]  kgsl_get_fence_info+0x3c/0x174\n\u003c6\u003e[44447.132419]  kgsl_drawobj_sync_add_sync+0x504/0xbe8\n\u003c6\u003e[44447.132420]  kgsl_drawobj_sync_add_synclist+0xb0/0xe8\n\u003c6\u003e[44447.132424]  kgsl_ioctl_gpu_command+0x180/0x288\n\u003c6\u003e[44447.132425]  kgsl_ioctl_helper+0xe0/0x134\n\u003c6\u003e[44447.132427]  kgsl_ioctl+0x7c/0xe8\n\u003c6\u003e[44447.132430]  do_vfs_ioctl+0xa64/0x1214\n\u003c6\u003e[44447.132431]  __arm64_sys_ioctl+0x74/0xa0\n\u003c6\u003e[44447.132433]  el0_svc_common+0xc4/0x190\n\u003c6\u003e[44447.132434]  el0_svc_handler+0x24/0x64\n\u003c6\u003e[44447.132436]  el0_svc+0x8/0x300\n\u003c0\u003e[44447.132439] Code: f9401008 d0008fca 913e214a f9400d08 (f9400509) \n\u003c4\u003e[44447.132441] ---[ end trace 834c1f8d4c14d022 ]---\n\u003c0\u003e[44447.146128] Kernel panic - not syncing: Fatal exception",
+      "revId": "02b9f89f58eb31491327f799deba0f87e26ea364",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

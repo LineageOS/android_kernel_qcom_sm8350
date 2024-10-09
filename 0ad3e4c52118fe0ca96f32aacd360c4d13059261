@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "caf24359_79912504",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-10-09T17:27:47Z",
+      "side": 1,
+      "message": "should fix this kernel panic: https://katb.in/kabiyihadog (need to wait for about a week to confirm)\n\nreference: https://github.com/Motorola-SM6375-Devs/android_kernel_motorola_malmo-modules/commits/022f327e55f311fe44981d211c95479f9f8d6e42/core/hdd/src/wlan_hdd_cfg80211.c",
+      "revId": "0ad3e4c52118fe0ca96f32aacd360c4d13059261",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

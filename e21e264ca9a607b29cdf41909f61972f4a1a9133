@@ -101,6 +101,23 @@
       "message": "Go Edition Of Pixel UI 9.0",
       "revId": "e21e264ca9a607b29cdf41909f61972f4a1a9133",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87f80b0e_8676e602",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34799
+      },
+      "writtenOn": "2025-01-24T11:59:53Z",
+      "side": 1,
+      "message": "Comment removed by: Michael Bestas; Reason: Spam",
+      "revId": "e21e264ca9a607b29cdf41909f61972f4a1a9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []

@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d38f217_58cd3b11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34799
+      },
+      "writtenOn": "2025-01-24T11:43:35Z",
+      "side": 1,
+      "message": "sherif.gendya.lenovo.tab.m7",
+      "revId": "e21e264ca9a607b29cdf41909f61972f4a1a9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }

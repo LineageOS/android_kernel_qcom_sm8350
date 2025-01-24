@@ -50,6 +50,23 @@
       "message": "I0eff78e56e4a3b64262f220a085cfec5910baf30",
       "revId": "e21e264ca9a607b29cdf41909f61972f4a1a9133",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbd4d670_d3604a00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34799
+      },
+      "writtenOn": "2025-01-24T11:44:39Z",
+      "side": 1,
+      "message": "switches\n\nBlock USB enumeration from the get-go by blocking role switches",
+      "revId": "e21e264ca9a607b29cdf41909f61972f4a1a9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []

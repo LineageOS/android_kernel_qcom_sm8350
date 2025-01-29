@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d825e3b6_8a358aff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2025-01-29T22:44:29Z",
+      "side": 1,
+      "message": "Also fixes broken adb (PC does not detect the phone when connected via usb) on rhodep",
+      "revId": "45610a015f70565c3e1de61349e95cd77c3280a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

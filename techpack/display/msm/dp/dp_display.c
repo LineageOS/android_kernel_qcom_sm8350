@@ -3918,6 +3918,7 @@ static int dp_display_get_display_type(struct dp_display *dp_display,
 		const char **display_type)
 {
 	struct dp_display_private *dp;
+	struct device_node *of_node;
 
 	if (!dp_display || !display_type) {
 		pr_err("invalid input\n");
@@ -3927,7 +3928,11 @@ static int dp_display_get_display_type(struct dp_display *dp_display,
 	dp = container_of(dp_display, struct dp_display_private, dp_display);
 	if (dp->parser)
 		*display_type = dp->parser->display_type;
-
+	else {
+		of_node = dp->pdev->dev.of_node;
+		*display_type = of_get_property(of_node, "qcom,display-type",
+					NULL);
+	}
 	return 0;
 }
 

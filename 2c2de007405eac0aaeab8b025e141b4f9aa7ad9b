@@ -46,6 +46,30 @@
       },
       "revId": "2c2de007405eac0aaeab8b025e141b4f9aa7ad9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e77022b_4ef1e0e0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 31604
+      },
+      "writtenOn": "2025-03-24T21:04:25Z",
+      "side": 1,
+      "message": "Does this look right now?\n\n---\n\nManually specifying the message with `-m \"Merge tag \u0027$TAG\u0027 of $remote_url into $into_name\"$\u0027\\n\u0027` still keeps the branch/tag description and output added by `--log` so it should be fine for me.",
+      "parentUuid": "0116153e_44972d3e",
+      "range": {
+        "startLine": 8,
+        "startChar": 11,
+        "endLine": 8,
+        "endChar": 31
+      },
+      "revId": "2c2de007405eac0aaeab8b025e141b4f9aa7ad9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

@@ -22,6 +22,30 @@
       },
       "revId": "2c2de007405eac0aaeab8b025e141b4f9aa7ad9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0116153e_44972d3e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 31604
+      },
+      "writtenOn": "2025-03-24T19:55:12Z",
+      "side": 1,
+      "message": "Yeah, fair... I\u0027m fetching all the remote tags first so that the fetching can be a one-and-done event, but because there are multiple repos that use the same tag being merged into the same repo, I differentiated them like this, and then the merge auto-titled it this way.\n\nI see the other merges don\u0027t display it like this and also show the URL being pulled from, which seems better.\n\nI\u0027ll see if there\u0027s a way to accomplish both things without manual edits each time. Let me know if you have any ideas.",
+      "parentUuid": "7481b0fd_4827ba9c",
+      "range": {
+        "startLine": 8,
+        "startChar": 11,
+        "endLine": 8,
+        "endChar": 31
+      },
+      "revId": "2c2de007405eac0aaeab8b025e141b4f9aa7ad9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

@@ -94,6 +94,30 @@
       },
       "revId": "2c2de007405eac0aaeab8b025e141b4f9aa7ad9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0112228_dc08c41c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 31604
+      },
+      "writtenOn": "2025-03-25T14:00:24Z",
+      "side": 1,
+      "message": "Right, my goal is a workflow similar to `repo sync` where everything involved is fetched before any other work begins (merging in this case); that way, there\u0027s not even a need to be online.\n\nIt seems the only way to get the desired commit message in this situation is to fake it. That\u0027s fine, and it\u0027s not hard to [automate](https://codeberg.org/t-m-w/porting_scripts/src/branch/main/qcom-merge.sh) [that](https://codeberg.org/t-m-w/porting_scripts/src/commit/4d63d1bec0e833af237b38c36dc4c53b8adc85f5/qcom-merge.sh#L248), so that\u0027s what I\u0027m doing for the title, but you can see it still says \"* tag \u0027clo/display-drivers/LA.UM.9.14.r1-26000-LAHAINA.QSSI15.0\u0027\" later in the message. Resolving that requires fancier faking, like writing into `FETCH_HEAD` myself and merging that.\n\nIs it worth it, or is it fine enough having the actual tag and URL in the commit title?",
+      "parentUuid": "da8a6c4d_07eea514",
+      "range": {
+        "startLine": 8,
+        "startChar": 11,
+        "endLine": 8,
+        "endChar": 31
+      },
+      "revId": "2c2de007405eac0aaeab8b025e141b4f9aa7ad9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

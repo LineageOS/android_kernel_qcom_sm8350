@@ -34,6 +34,24 @@
       "parentUuid": "dcaa220b_ce66811e",
       "revId": "f311d4c4b14126cfdfdd655a96d512983223a4bc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94215e51_8090da70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16908
+      },
+      "writtenOn": "2025-04-26T08:38:09Z",
+      "side": 1,
+      "message": "thank you, i tried to use this with https://review.lineageos.org/q/topic:%22xiaomi-sm8250-uvc-webcam%22 but preview is still blank on pc (using obs) and it is fine on device preview window.\n\ni added the following lines to https://github.com/LineageOS/android_kernel_qcom_sm8250/blob/lineage-20/drivers/usb/dwc3/core.c#L1537\nret \u003d dma_set_mask_and_coherent(dev, DMA_BIT_MASK(64));\nif (ret) return ret;\n\nscreenshot: https://imgur.com/uS18gAj",
+      "parentUuid": "695b4107_3161695a",
+      "revId": "f311d4c4b14126cfdfdd655a96d512983223a4bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

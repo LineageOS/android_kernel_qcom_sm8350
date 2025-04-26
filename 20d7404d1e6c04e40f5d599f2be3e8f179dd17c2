@@ -16,6 +16,23 @@
       "message": "verified on sony-sm6375.",
       "revId": "20d7404d1e6c04e40f5d599f2be3e8f179dd17c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "794c07d6_608ddd30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29715
+      },
+      "writtenOn": "2025-04-26T10:50:20Z",
+      "side": 1,
+      "message": "verified on venus too, for a few weeks",
+      "revId": "20d7404d1e6c04e40f5d599f2be3e8f179dd17c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

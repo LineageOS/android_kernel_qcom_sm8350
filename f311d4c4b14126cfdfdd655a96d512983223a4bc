@@ -16,6 +16,24 @@
       "message": "scatter gather working on sm8350?",
       "revId": "f311d4c4b14126cfdfdd655a96d512983223a4bc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "695b4107_3161695a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2025-04-26T06:53:37Z",
+      "side": 1,
+      "message": "With this backported, yes",
+      "parentUuid": "dcaa220b_ce66811e",
+      "revId": "f311d4c4b14126cfdfdd655a96d512983223a4bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

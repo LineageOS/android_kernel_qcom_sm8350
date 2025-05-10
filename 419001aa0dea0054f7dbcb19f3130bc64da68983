@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e575e590_eeb77814",
+        "filename": "drivers/usb/dwc3/gadget.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 2392,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-05-10T05:57:19Z",
+      "side": 1,
+      "message": "Qualcomm\u0027s value was different before the merge:\n\n```suggestion\n\tu32\t\t\ttimeout \u003d 1500;\n```",
+      "revId": "419001aa0dea0054f7dbcb19f3130bc64da68983",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

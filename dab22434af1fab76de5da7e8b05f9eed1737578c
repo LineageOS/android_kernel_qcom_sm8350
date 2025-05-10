@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "babeb923_b3a35083",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2025-05-10T15:15:38Z",
+      "side": 1,
+      "message": "Please add https://github.com/sevenrock/android_kernel_motorola_sm6375/commit/10dde2d76031567a7e008944abaeb5547462bdd8 to fix a build error on rhodep.",
+      "revId": "dab22434af1fab76de5da7e8b05f9eed1737578c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

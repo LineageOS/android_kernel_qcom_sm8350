@@ -16,6 +16,24 @@
       "message": "Many power drivers suffer from the same issue. I saw this in logs at least from Xiaomi and BBK devices",
       "revId": "6df72074a8cb8f2930417f3e6a7b06386fe8db5a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0464ae0f_8b27565c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2025-05-25T17:01:05Z",
+      "side": 1,
+      "message": "Verified on veux that the change indeed fixed the issue*",
+      "parentUuid": "447486d2_789d97bb",
+      "revId": "6df72074a8cb8f2930417f3e6a7b06386fe8db5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

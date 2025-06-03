@@ -16,6 +16,24 @@
       "message": "I guess comment should still mention CONFIG_VM_EVENT_COUNTERS instead of CONFIG_VM_EVENTS_COUNTERS\n```suggestion\n#endif /* CONFIG_VM_EVENT_COUNTERS */\n```",
       "revId": "f2f6a4239e15fb990f4cb884c757973f151741f8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "714d1264_5e8a008a",
+        "filename": "mm/vmstat.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1303,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2025-06-03T06:44:52Z",
+      "side": 1,
+      "message": "The revert is applied correctly",
+      "parentUuid": "9c99757d_df75c09f",
+      "revId": "f2f6a4239e15fb990f4cb884c757973f151741f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

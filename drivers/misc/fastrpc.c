@@ -379,9 +379,21 @@ static int olaps_cmp(const void *a, const void *b)
 	return st == 0 ? ed : st;
 }
 
+/**
+ * fastrpc_get_buff_overlaps - Detect and handle buffer overlaps in RPC args
+ * @ctx: The invoke context containing buffer information
+ *
+ * This function detects overlapping memory regions in the RPC arguments and
+ * adjusts the memory mapping accordingly. It handles ION and non-ION buffers
+ * separately to prevent incorrect overlap detection between different buf types.
+ * For each buffer type:
+ * - If a buffer overlaps with a previous buffer of the same type, it adjusts
+ *   the mapping to avoid the overlap
+ * - If no overlap is detected, it uses the full buffer range
+ */
 static void fastrpc_get_buff_overlaps(struct fastrpc_invoke_ctx *ctx)
 {
-	u64 max_end = 0;
+	u64 ion_buf_end_pos = 0, non_ion_buf_end_pos = 0;
 	int i;
 
 	for (i = 0; i < ctx->nbufs; ++i) {
@@ -393,24 +405,29 @@ static void fastrpc_get_buff_overlaps(struct fastrpc_invoke_ctx *ctx)
 	sort(ctx->olaps, ctx->nbufs, sizeof(*ctx->olaps), olaps_cmp, NULL);
 
 	for (i = 0; i < ctx->nbufs; ++i) {
-		/* Falling inside previous range */
-		if (ctx->olaps[i].start < max_end) {
-			ctx->olaps[i].mstart = max_end;
-			ctx->olaps[i].mend = ctx->olaps[i].end;
-			ctx->olaps[i].offset = max_end - ctx->olaps[i].start;
+		/* Separate ION and non-ION buffers; fd <= 0 indicates non-ION */
+		u64 *last_buf_end = (ctx->args[ctx->olaps[i].raix].fd <= 0) ?
+				&non_ion_buf_end_pos : &ion_buf_end_pos;
 
-			if (ctx->olaps[i].end > max_end) {
-				max_end = ctx->olaps[i].end;
+		if (ctx->olaps[i].start < *last_buf_end) {
+			/* Overlap detected within same buffer type */
+			ctx->olaps[i].mstart = *last_buf_end;
+			ctx->olaps[i].mend = ctx->olaps[i].end;
+			ctx->olaps[i].offset = *last_buf_end - ctx->olaps[i].start;
+
+			if (ctx->olaps[i].end > *last_buf_end) {
+				*last_buf_end = ctx->olaps[i].end;
 			} else {
 				ctx->olaps[i].mend = 0;
 				ctx->olaps[i].mstart = 0;
 			}
 
 		} else  {
+			/* No overlap, assign full range */
 			ctx->olaps[i].mend = ctx->olaps[i].end;
 			ctx->olaps[i].mstart = ctx->olaps[i].start;
 			ctx->olaps[i].offset = 0;
-			max_end = ctx->olaps[i].end;
+			*last_buf_end = ctx->olaps[i].end;
 		}
 	}
 }

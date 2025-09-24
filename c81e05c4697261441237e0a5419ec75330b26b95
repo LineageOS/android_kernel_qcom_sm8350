@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e0c012e_aef33dfd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2025-09-24T10:21:11Z",
+      "side": 1,
+      "message": "`wireguard` branch merged as mentioned in the commit message: https://github.com/amartinz/android_kernel_shift_qcm6490/commits/common/lineage-20/wireguard/",
+      "revId": "c81e05c4697261441237e0a5419ec75330b26b95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

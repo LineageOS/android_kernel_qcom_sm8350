@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "130e08f3_38e305ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-09-30T19:35:58Z",
+      "side": 1,
+      "message": "Chain fixes the following error while building with lahaina_qgki config on fedora 42:\n\n```\nerror: __float128 is not supported on this target\n   97 | typedef __float128 _Float128;\n      |         ^\n```",
+      "revId": "5e9e19c783b7a72fc68722dc3ba35dfba0f759f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -16,6 +16,24 @@
       "message": "Chain is still a WIP",
       "revId": "f5416a78e313f3c2050bfcfa800453e50b2d758b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9906311a_a9fd80cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-12-06T23:45:27Z",
+      "side": 1,
+      "message": "Boots and compiles, it\u0027s on https://github.com/oneplus-sm8350-devs/android_kernel_qcom_sm8350 for now. I\u0027ll push it to gerrit after some squashes and clean-up",
+      "parentUuid": "dc9764fe_06cd363e",
+      "revId": "f5416a78e313f3c2050bfcfa800453e50b2d758b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

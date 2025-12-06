@@ -16,6 +16,23 @@
       "message": "Needs patch to fix build errors on rhodep:\nhttps://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8250/+/461972",
       "revId": "350c4ccfe178a0822d366e28584c8d4d11326630",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ff4d38c_68cafc2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2025-12-06T17:54:34Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_kernel_qcom_sm8350/commit/8b7ac7af3a6664d707cb451c1cac5d9444977815\nneeds to be reverted to fix another build error on rhodep",
+      "revId": "350c4ccfe178a0822d366e28584c8d4d11326630",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

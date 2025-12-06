@@ -33,6 +33,23 @@
       "message": "https://github.com/LineageOS/android_kernel_qcom_sm8350/commit/8b7ac7af3a6664d707cb451c1cac5d9444977815\nneeds to be reverted to fix another build error on rhodep",
       "revId": "350c4ccfe178a0822d366e28584c8d4d11326630",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c102986_07db363e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-06T17:58:22Z",
+      "side": 1,
+      "message": "Mike, you\u0027d be better off merging -lts branch before each ASB tag.",
+      "revId": "350c4ccfe178a0822d366e28584c8d4d11326630",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

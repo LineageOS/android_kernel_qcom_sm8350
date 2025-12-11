@@ -50,6 +50,24 @@
       "message": "Mike, you\u0027d be better off merging -lts branch before each ASB tag.",
       "revId": "350c4ccfe178a0822d366e28584c8d4d11326630",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7bb70837_9ee070d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-12-11T10:37:51Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8350/+/464730",
+      "parentUuid": "2ff4d38c_68cafc2f",
+      "revId": "350c4ccfe178a0822d366e28584c8d4d11326630",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

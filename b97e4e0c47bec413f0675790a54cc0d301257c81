@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a505d857_cfc31d4c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-12-23T20:48:19Z",
+      "side": 1,
+      "message": "Nevermind - https://github.com/LineageOS/android_kernel_qcom_sm8350/commit/68655462f8be3110396dece4f1c11b0b44dc3f37",
+      "revId": "b97e4e0c47bec413f0675790a54cc0d301257c81",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

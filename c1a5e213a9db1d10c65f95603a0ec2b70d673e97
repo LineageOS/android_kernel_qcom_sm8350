@@ -33,6 +33,23 @@
       "message": "Chain boots on rhodep",
       "revId": "c1a5e213a9db1d10c65f95603a0ec2b70d673e97",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6e5dee7_e567bbb0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-01-19T17:55:07Z",
+      "side": 1,
+      "message": "Chain is good on dre",
+      "revId": "c1a5e213a9db1d10c65f95603a0ec2b70d673e97",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

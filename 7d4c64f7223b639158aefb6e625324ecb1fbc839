@@ -16,6 +16,23 @@
       "message": "Chain boots on martini",
       "revId": "7d4c64f7223b639158aefb6e625324ecb1fbc839",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e7dd865_3ff1dbe2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2026-02-13T18:56:42Z",
+      "side": 1,
+      "message": "Chain boots on rhodep",
+      "revId": "7d4c64f7223b639158aefb6e625324ecb1fbc839",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

@@ -70,6 +70,24 @@
       "parentUuid": "b1416454_f216e334",
       "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "602ffcfd_3b001383",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-05-03T19:01:41Z",
+      "side": 1,
+      "message": "This commit also triggers CFG80211_MULTI_AKM_CONNECT_SUPPORT in qcacld-3.0",
+      "parentUuid": "7f3f11db_f627de46",
+      "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

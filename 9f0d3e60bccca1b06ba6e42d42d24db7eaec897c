@@ -16,6 +16,24 @@
       "message": "This merge breaks WiFi on veux, I\u0027ll investigate further",
       "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2fe1822_6c9de9f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-03T18:37:49Z",
+      "side": 1,
+      "message": "This commit breaks it\nhttps://github.com/LineageOS/android_kernel_qcom_sm8350/commit/525fb1b48fc85dcf0855c0a415b4deed063e85b0",
+      "parentUuid": "8811f4d3_4b91998c",
+      "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

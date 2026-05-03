@@ -52,6 +52,24 @@
       "parentUuid": "b2fe1822_6c9de9f6",
       "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f3f11db_f627de46",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-03T18:56:34Z",
+      "side": 1,
+      "message": "I couldn\u0027t see anything useful in logs but I\u0027ll figure out what exactly in that commit causes breakage",
+      "parentUuid": "b1416454_f216e334",
+      "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

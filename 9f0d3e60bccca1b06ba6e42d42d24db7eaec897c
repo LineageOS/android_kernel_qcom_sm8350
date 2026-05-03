@@ -88,6 +88,24 @@
       "parentUuid": "7f3f11db_f627de46",
       "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d4a00ce_eb9538ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-03T20:23:00Z",
+      "side": 1,
+      "message": "Actually, I missed something when checking logs for the first time so I\u0027m letting you know:\n```\n05-03 21:16:53.857  5237  5237 I wpa_supplicant: wlan0: Trying to associate with SSID \u0027Redmi Note 9S\u0027\n05-03 21:16:53.857  5237  5237 I wpa_supplicant: assoc key_mgmt 0x2 network key_mgmt 0xd42\n05-03 21:16:53.857  5237  5237 E wpa_supplicant: wlan0: nl80211: kernel reports: Attribute failed policy validation\n05-03 21:16:53.857  5237  5237 E wpa_supplicant: wlan0: nl80211: kernel reports: Unsupported attribute\n05-03 21:16:53.857  5237  5237 I wpa_supplicant: wlan0: Association request to the driver failed\n```",
+      "parentUuid": "602ffcfd_3b001383",
+      "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

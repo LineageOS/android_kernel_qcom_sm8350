@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8811f4d3_4b91998c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-03T18:20:19Z",
+      "side": 1,
+      "message": "This merge breaks WiFi on veux, I\u0027ll investigate further",
+      "revId": "9f0d3e60bccca1b06ba6e42d42d24db7eaec897c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

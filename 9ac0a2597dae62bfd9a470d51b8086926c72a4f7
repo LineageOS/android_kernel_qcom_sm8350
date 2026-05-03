@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d4c68ae_2a20e17c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-03T21:55:20Z",
+      "side": 1,
+      "message": "This fixes an issue when the screen can\u0027t be turn on if there were no contiguous 16 kB blocks during suspend",
+      "revId": "9ac0a2597dae62bfd9a470d51b8086926c72a4f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

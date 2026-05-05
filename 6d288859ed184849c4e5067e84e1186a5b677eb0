@@ -16,6 +16,41 @@
       "message": "Tested on sm6375",
       "revId": "6d288859ed184849c4e5067e84e1186a5b677eb0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d332049d_f11f7ccd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-05T17:25:20Z",
+      "side": 1,
+      "message": "Meant to leave it there*\nhttps://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8350/+/482307",
+      "parentUuid": "eaca06c7_9253201d",
+      "revId": "6d288859ed184849c4e5067e84e1186a5b677eb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae0729d5_91e6066b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-05T17:25:20Z",
+      "side": 1,
+      "message": "Meant",
+      "revId": "6d288859ed184849c4e5067e84e1186a5b677eb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

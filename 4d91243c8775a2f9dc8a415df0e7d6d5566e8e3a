@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91157364_c44b6d6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2026-05-06T10:45:49Z",
+      "side": 1,
+      "message": "As this change was already merged without the `net/core/sock.c` change, I have reuploaded this with a new Change-Id and renamed the original to `ORiginal-Change-Id`.\n\nThis is required to fix VTS:\n\n`run vts -m vts_kernel_net_tests -t bpf_test.BpfTest#testGetNetNsCookie`",
+      "revId": "4d91243c8775a2f9dc8a415df0e7d6d5566e8e3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

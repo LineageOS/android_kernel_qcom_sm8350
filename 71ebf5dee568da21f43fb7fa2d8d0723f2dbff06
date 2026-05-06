@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57b90c96_45b47a91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2026-05-06T10:06:48Z",
+      "side": 1,
+      "message": "These are required for VTS:\n\n\n`run vts -m vts_kernel_net_tests`\n\nThe relevant tests are passing now, but I could not test it, because for my provider IPv6 is still broken 🙄",
+      "revId": "71ebf5dee568da21f43fb7fa2d8d0723f2dbff06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

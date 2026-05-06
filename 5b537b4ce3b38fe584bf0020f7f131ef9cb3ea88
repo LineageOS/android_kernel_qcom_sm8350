@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7029309_112f9575",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2026-05-06T09:27:22Z",
+      "side": 1,
+      "message": "This series is to fix VTS:\n\n- `run vts -m vts_linux_kselftest_arm_32`\n\n- `run vts -m vts_linux_kselftest_arm_64`\n\n```\n#  RUN           global.user_notification_continue ...\n#          FAIL  global.user_notification_continue\nnot ok 46 global.user_notification_continue #  Kernel does not support SECCOMP_USER_NOTIF_FLAG_CONTINUE\n#  RUN           global.user_notification_filter_empty ...\n#          FAIL  global.user_notification_filter_empty\nnot ok 47 global.user_notification_filter_empty\n#  RUN           global.user_ioctl_notification_filter_empty ...\n#            OK  global.user_ioctl_notification_filter_empty\nok 48 global.user_ioctl_notification_filter_empty # SKIP Kernel version \u0026lt; 6.11\n#  RUN           global.user_notification_filter_empty_threaded ...\n#          FAIL  global.user_notification_filter_empty_threaded\nnot ok 49 global.user_notification_filter_empty_threaded\n```",
+      "revId": "5b537b4ce3b38fe584bf0020f7f131ef9cb3ea88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

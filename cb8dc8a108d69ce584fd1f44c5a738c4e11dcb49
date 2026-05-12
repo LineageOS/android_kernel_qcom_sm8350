@@ -16,6 +16,24 @@
       "message": "This revert is wrong. `android12-5.4` doesn\u0027t have \"sysctl: pass kernel pointers to -\u003eproc_handler\" but this kernel does",
       "revId": "cb8dc8a108d69ce584fd1f44c5a738c4e11dcb49",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8c30002_199ec5b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2026-05-12T06:23:37Z",
+      "side": 1,
+      "message": "Whoops, thanks for pointing this out.\n\nDo you want to submit the revert or should I submit it with your authorship?",
+      "parentUuid": "c7076c42_1bc2a715",
+      "revId": "cb8dc8a108d69ce584fd1f44c5a738c4e11dcb49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

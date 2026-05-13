@@ -34,6 +34,24 @@
       "parentUuid": "719a4655_41c8a5f8",
       "revId": "10f949d39984354d73e4aba5538f4d0236caa2ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49ec0e18_46795bd6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2026-05-13T06:15:55Z",
+      "side": 1,
+      "message": "I did testing on otter, picking the patches but leaving fuse-bpf disabled.\n\nThen I did an OTA without wiping data, enabling fuse-bpf and it still worked.\n\nThen I ran VTS and StorageManager tests and they still passed too.\n\nSo in theory should be good to go.",
+      "parentUuid": "821b1037_78aedaa5",
+      "revId": "10f949d39984354d73e4aba5538f4d0236caa2ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

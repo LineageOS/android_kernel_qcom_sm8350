@@ -16,6 +16,24 @@
       "message": "objections?",
       "revId": "10f949d39984354d73e4aba5538f4d0236caa2ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "821b1037_78aedaa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-05-13T00:55:27Z",
+      "side": 1,
+      "message": "I don\u0027t have any, since there is no sdcardfs",
+      "parentUuid": "719a4655_41c8a5f8",
+      "revId": "10f949d39984354d73e4aba5538f4d0236caa2ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

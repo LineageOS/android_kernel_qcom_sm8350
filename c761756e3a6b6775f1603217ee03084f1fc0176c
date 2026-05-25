@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a6a4a99_d423620c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-25T16:39:28Z",
+      "side": 1,
+      "message": "Caught with UBSAN. No change in the actual calculated values is expected because of how bit shifting works on ARM. However, the compiler could theoretically optimize it to whatever it likes.",
+      "revId": "c761756e3a6b6775f1603217ee03084f1fc0176c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -16,6 +16,23 @@
       "message": "This is upstream fix for the issue I described at https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8350/+/394105/",
       "revId": "55e0fe8b635316a58250df92f14ce0180ee3328d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e72a2c3b_b8ca86c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-05-29T18:33:37Z",
+      "side": 1,
+      "message": "given it\u0027s a revert for upstream fix, no need to merge device kernels for just this set.",
+      "revId": "55e0fe8b635316a58250df92f14ce0180ee3328d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

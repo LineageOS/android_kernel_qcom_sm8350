@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8eb2868_eefcc255",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-29T18:01:52Z",
+      "side": 1,
+      "message": "This is upstream fix for the issue I described at https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8350/+/394105/",
+      "revId": "55e0fe8b635316a58250df92f14ce0180ee3328d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

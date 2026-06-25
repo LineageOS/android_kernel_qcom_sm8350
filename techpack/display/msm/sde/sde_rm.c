@@ -918,7 +918,7 @@ static bool _sde_rm_reserve_pp(
 		struct sde_rm_rsvp *rsvp,
 		struct sde_rm_requirements *reqs,
 		const struct sde_lm_cfg *lm_cfg,
-		const struct sde_pingpong_cfg *pp_cfg,
+		const struct sde_pingpong_cfg *pp_cfg = NULL,
 		struct sde_rm_hw_blk *lm,
 		struct sde_rm_hw_blk **dspp,
 		struct sde_rm_hw_blk **ds,

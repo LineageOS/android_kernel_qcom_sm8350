@@ -16,6 +16,23 @@
       "message": "We also have this reverted since quite some time.",
       "revId": "1df27edaaf6a80ffe005d571acd173db1c0b3688",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8d6d847_e696d171",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33118
+      },
+      "writtenOn": "2026-07-08T04:22:34Z",
+      "side": 1,
+      "message": "Mentioning this for history purposes:\n\nBionic is newer than what kernel supports.\n\nIt breaks ABI because NL80211_ATTR_MAX_NUM_AKM_SUITES is set to 316, which matches the order number of the enum in bionic but the rest in the middle isn\u0027t available in kernel.\n\nLogcat shows:\n\n```\n07-08 02:24:29.532 11177 11177 E wpa_supplicant: wlan0: nl80211: kernel reports: Attribute failed policy validation\n07-08 02:24:29.533 11177 11177 E wpa_supplicant: wlan0: nl80211: kernel reports: Unsupported attribute\n07-08 02:24:29.533 11177 11177 I wpa_supplicant: wlan0: Association request to the driver failed\n```\n\nBut if you remove 316, then it will be auto-incremented, and userspace will fallback to legacy implementation and wifi still works, but in return you get this spam in logcat:\n\n`Failed to get NL80211_ATTR_MAX_NUM_AKM_SUITES`\n\nBecause NL80211_ATTR_MAX_NUM_AKM_SUITES isn\u0027t matching index anymore.",
+      "revId": "1df27edaaf6a80ffe005d571acd173db1c0b3688",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

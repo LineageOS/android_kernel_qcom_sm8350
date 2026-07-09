@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "638d336c_32e5d794",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32197
+      },
+      "writtenOn": "2026-07-09T13:32:53Z",
+      "side": 1,
+      "message": "A zygote-child SIGABRT would occur without CAP_CHECKPOINT_RESTORE\nThis affects Chrome 148+ and possibly (untested) more Chromium-based browsers\n\nlogcat: https://katb.in/aruloqufuta",
+      "revId": "ad10207c9d778d3ee766bf987fed03cde8a65408",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

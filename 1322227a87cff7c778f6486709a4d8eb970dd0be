@@ -16,6 +16,24 @@
       "message": "https://review.lineageos.org/c/LineageOS/android_kernel_xiaomi_sm8450-devicetrees/+/492920",
       "revId": "1322227a87cff7c778f6486709a4d8eb970dd0be",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f71122ef_fd4f2485",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-09-24T17:56:55Z",
+      "side": 1,
+      "message": "This sounds 99% like a misconfigured device and unless it affects an official shipping device this comment is irrelevant.",
+      "parentUuid": "b8924f27_c99e5678",
+      "revId": "1322227a87cff7c778f6486709a4d8eb970dd0be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

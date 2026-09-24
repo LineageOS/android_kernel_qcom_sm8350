@@ -52,6 +52,24 @@
       "parentUuid": "f71122ef_fd4f2485",
       "revId": "1322227a87cff7c778f6486709a4d8eb970dd0be",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7688ec25_dbd40ec6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32837
+      },
+      "writtenOn": "2026-09-24T18:15:59Z",
+      "side": 1,
+      "message": "the download breaks only if you delete this node completely. until completely deleted, the behavior is the same as everyone else\u0027s...",
+      "parentUuid": "7233b7be_d7d74848",
+      "revId": "1322227a87cff7c778f6486709a4d8eb970dd0be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

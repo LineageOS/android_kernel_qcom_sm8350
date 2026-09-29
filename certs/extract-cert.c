@@ -26,7 +26,7 @@
 # include <openssl/provider.h>
 # include <openssl/store.h>
 #else
-# if !defined(OPENSSL_NO_ENGINE) && !defined(OPENSSL_NO_DEPRECATED_3_0)
+# if !defined(OPENSSL_NO_ENGINE) && !defined(OPENSSL_NO_DEPRECATED_3_0) && !defined(OPENSSL_IS_BORINGSSL)
 #  define USE_PKCS11_ENGINE
 #  include <openssl/engine.h>
 # endif

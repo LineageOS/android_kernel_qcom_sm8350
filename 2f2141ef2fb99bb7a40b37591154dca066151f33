@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a16b7fb8_a0223687",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19282
+      },
+      "writtenOn": "2026-09-29T17:37:12Z",
+      "side": 1,
+      "message": "Just for reference, I had to pick these to get it to build on Fedora 45, which has removed the [`openssl-devel-engine`](https://packages.fedoraproject.org/pkgs/openssl/openssl-devel-engine/) package.",
+      "revId": "2f2141ef2fb99bb7a40b37591154dca066151f33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

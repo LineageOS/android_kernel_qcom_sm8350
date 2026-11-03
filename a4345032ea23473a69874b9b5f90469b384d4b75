@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5b3d1d3_f0f7b0a9",
+        "filename": "kernel/time/posix-cpu-timers.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 476,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-03T07:04:08Z",
+      "side": 1,
+      "message": "posix-cpu-timers.c:476:23: error: implicit declaration of function \u0027clock_pid_type\u0027 [-Werror,-Wimplicit-function-declaration]",
+      "revId": "a4345032ea23473a69874b9b5f90469b384d4b75",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

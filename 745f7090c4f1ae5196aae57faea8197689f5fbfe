@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b7fefa1_28882642",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33118
+      },
+      "writtenOn": "2026-11-09T22:50:45Z",
+      "side": 1,
+      "message": "Fixes https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8350/+/511836 which produces a brigade of warnings due to the equality check.",
+      "revId": "745f7090c4f1ae5196aae57faea8197689f5fbfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

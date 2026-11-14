@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5335272_948daadf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-14T16:32:13Z",
+      "side": 1,
+      "message": "Looks like this commit is really 2 separate changes:\nhttps://android-review.googlesource.com/c/kernel/common/+/2689148\nhttps://android-review.googlesource.com/c/kernel/common/+/2691646",
+      "revId": "fa820286d1be60e152bf6dea279401fd5e1aafa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

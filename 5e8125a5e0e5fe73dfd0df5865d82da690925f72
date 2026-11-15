@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c63d867c_61b5511c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-15T21:43:46Z",
+      "side": 1,
+      "message": "Why is this co-authored-by? If this is a plain port from other branch, commit it as such and don\u0027t change the commit message, please.",
+      "revId": "5e8125a5e0e5fe73dfd0df5865d82da690925f72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

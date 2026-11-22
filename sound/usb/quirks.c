@@ -1468,6 +1468,7 @@ bool snd_usb_get_sample_rate_quirk(struct snd_usb_audio *chip)
 	/* devices which do not support reading the sample rate. */
 	switch (chip->usb_id) {
 	case USB_ID(0x041E, 0x4080): /* Creative Live Cam VF0610 */
+	case USB_ID(0x0499, 0x3108): /* Yamaha YIT-W12TX */
 	case USB_ID(0x04D8, 0xFEEA): /* Benchmark DAC1 Pre */
 	case USB_ID(0x0556, 0x0014): /* Phoenix Audio TMX320VC */
 	case USB_ID(0x05A3, 0x9420): /* ELP HD USB Camera */

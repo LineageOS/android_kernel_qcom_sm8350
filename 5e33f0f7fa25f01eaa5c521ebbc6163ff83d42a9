@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7890018b_1afe6a33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-11-24T20:48:08Z",
+      "side": 1,
+      "message": "@federico.benedetti@ledges.it needs V+1 implying \"builds and works\", though, builds for me and seems sane.",
+      "revId": "5e33f0f7fa25f01eaa5c521ebbc6163ff83d42a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

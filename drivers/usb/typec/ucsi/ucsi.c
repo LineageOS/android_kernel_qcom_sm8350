@@ -480,6 +480,26 @@ static void ucsi_unregister_partner(struct ucsi_connector *con)
 	con->partner = NULL;
 }
 
+/*
+ * Some PPMs report a connected partner with USB data but no partner type
+ * when the PD contract was made before the OS took over, and send no partner
+ * change once they know it. Fall back to the default data role of the power
+ * role then: a sink is the UFP, a source is the DFP.
+ */
+static u8 ucsi_partner_type(struct ucsi_connector *con)
+{
+	u8 type = UCSI_CONSTAT_PARTNER_TYPE(con->status.flags);
+
+	if (!type && (con->status.flags & UCSI_CONSTAT_CONNECTED) &&
+	    (UCSI_CONSTAT_PARTNER_FLAGS(con->status.flags) &
+	     UCSI_CONSTAT_PARTNER_FLAG_USB))
+		type = (con->status.flags & UCSI_CONSTAT_PWR_DIR) ?
+			UCSI_CONSTAT_PARTNER_TYPE_UFP :
+			UCSI_CONSTAT_PARTNER_TYPE_DFP;
+
+	return type;
+}
+
 static void ucsi_partner_change(struct ucsi_connector *con)
 {
 	int ret;
@@ -489,7 +509,7 @@ static void ucsi_partner_change(struct ucsi_connector *con)
 	if (!con->partner)
 		return;
 
-	switch (UCSI_CONSTAT_PARTNER_TYPE(con->status.flags)) {
+	switch (ucsi_partner_type(con)) {
 	case UCSI_CONSTAT_PARTNER_TYPE_UFP:
 	case UCSI_CONSTAT_PARTNER_TYPE_CABLE:
 	case UCSI_CONSTAT_PARTNER_TYPE_CABLE_AND_UFP:
@@ -564,7 +584,7 @@ static void ucsi_handle_connector_change(struct work_struct *work)
 	if (con->status.change & UCSI_CONSTAT_CONNECT_CHANGE) {
 		typec_set_pwr_role(con->port, role);
 
-		switch (UCSI_CONSTAT_PARTNER_TYPE(con->status.flags)) {
+		switch (ucsi_partner_type(con)) {
 		case UCSI_CONSTAT_PARTNER_TYPE_UFP:
 		case UCSI_CONSTAT_PARTNER_TYPE_CABLE:
 		case UCSI_CONSTAT_PARTNER_TYPE_CABLE_AND_UFP:
@@ -889,7 +909,7 @@ static int ucsi_register_port(struct ucsi *ucsi, int index)
 		return 0;
 	}
 
-	switch (UCSI_CONSTAT_PARTNER_TYPE(con->status.flags)) {
+	switch (ucsi_partner_type(con)) {
 	case UCSI_CONSTAT_PARTNER_TYPE_UFP:
 	case UCSI_CONSTAT_PARTNER_TYPE_CABLE:
 	case UCSI_CONSTAT_PARTNER_TYPE_CABLE_AND_UFP:
